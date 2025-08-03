@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: TPCH
+    database: SNOWFLAKE_SAMPLE_DATA
+    schema: TPCH_SF1
+    tables:
+      - name: CUSTOMER
+      - name: ORDERS
+
+
+
