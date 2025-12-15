@@ -1,3 +1,8 @@
+
+{{ config(
+    pre_hook="select system$wait(1800)"
+) }}
+
 with 
 
 source as (
