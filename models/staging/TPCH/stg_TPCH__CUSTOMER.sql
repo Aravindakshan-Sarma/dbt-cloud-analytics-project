@@ -1,6 +1,6 @@
 
 {{ config(
-    pre_hook="select system$wait(50000)"
+    pre_hook="select system$wait(7000)"
 ) }}
 
 with 
