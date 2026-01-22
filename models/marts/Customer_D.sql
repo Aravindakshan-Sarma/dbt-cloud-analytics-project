@@ -1,3 +1,7 @@
+{{ config(
+    pre_hook="select system$wait(7000)"
+) }}
+
 SELECT
         CUSTKEY,
         CustomerName,
